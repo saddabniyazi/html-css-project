@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #bff;
+    margin:1 rem; 
+}
+html{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+nav ul{
+    margin-left: 5 rem;
+    list-style: none;  
+}
+li a{
+    text-decoration: none;
+    color: #000;
+}
+nav .burger {
+    margin-right: 5rem ;
+    cursor: pointer;
+}
+nav.burger span{
+    height:4px;
+    border:2px solid black;
+    margin:4px;
+    background: #000;
+}
+header{
+    margin: 6rem;
+}
+.main-heading{
+    width: 50%;
+    font-size: 3rem;
+}
+.primary-heading{
+    width:50%;
+    margin-top:3rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+
+}
+.bg-gray{
+    background: rgb(44, 55, 53 );
+    color:white;
+    padding: 2px 10 px;
+    font-weight: bold;
+}
+main{
+    margin:0 4rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 40px;
+}
+main .img{
+    width: 40%;
+    margin: 10px;
+}
+.section-three{
+    margin-left:5 rem ;
+}
+.section-three .primary-heading{
+    margin-bottom: 10rem;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section-three img{
+    width: 400px;
+    height:500px;
+    margin: 50px;
+}
+.section-three.item h1{
+    font-size: 2rem;
+    color: rgb(red, green, blue);
+}
+footer{
+      margin-top: 10rem;
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      background-color: rgb(144, 199,156);
+}
+footer .logo-container h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+footer .about-company .container{
+        margin-right: 40px;
+        margin-top: 20px; 
+}.about-company ,.container h1{
+    margin-bottom: 50px;
+}
+.about-company .container p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+@media screen and (max-width:740px){
+    neader ,main-heading{
+        width: 100%;
+        border: 2px;
+    }
+    header.primary-heading{
+        width: 100%;
+        font-size: 2rem;
+
+    }
+    .section-three ,main-heading{
+        width: 100%;
+    }
+    .section-three .primary-headings{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .section-three img{
+        margin: 0;
+    }
+
+}
+    
